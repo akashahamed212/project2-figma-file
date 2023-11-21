@@ -1,0 +1,321 @@
+/*+++++++++++++++++++++++++++++++++
++++      Global css   start  ++++
++++++++++++++++++++++++++++++++++*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+font-family: 'Roboto', sans-serif;
+}
+/*+++++++++++++++++++++++++++++++++
++++      Global css   end  ++++
++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++
++++      Header section css code start ++
++++++++++++++++++++++++++++++++++++++++*/
+.header-section{
+    width: 100%;
+    background-color: #F0FFF0;
+    padding: 15px 0px;
+
+}
+.header-section .nav-bar{
+    display: flex;
+    align-items: center;
+
+}
+.header-section .logo{
+    flex-basis: 15%;
+
+}
+.header-section .logo img{
+    width: 100%;
+    height: auto;
+}
+.header-section .nav{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.header-section .nav ul{
+    
+}
+.header-section .nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+   
+
+}
+.header-section .btn{
+    flex-basis: 15%;
+
+}
+.header-section .btn a{
+    background-color: #21B573;
+    padding:12px 28px 12px 28px;
+    border-radius: 33px;
+    border: 1px solid  #21B573;
+    color: white;
+
+}
+/*+++++++++++++++++++++++++++++++++++++
++++      banner section css code start ++
++++++++++++++++++++++++++++++++++++++++*/
+.banner{
+    width: 100%;
+    background-color: #F0FFF0;
+}
+.banner-inner{
+    display: flex;
+}
+
+.banner .banner-inner .content span{
+    
+    color: #FD511A;
+   
+}
+.banner .banner-inner .content{
+    flex-basis: 50%;
+   padding-top: 60px;
+   padding-bottom: 70px;
+}
+.banner .banner-inner .content h1{
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 70px;
+
+}
+.banner .banner-inner .content h1 span{
+    color: #21B573;
+}
+.banner .banner-inner .content p{
+    font-size: 16px;
+    line-height: 36px;
+    margin-top: 20px;
+    
+}
+.banner .banner-inner .content a{
+    background-color: #21B573;
+    padding:12px 28px 12px 28px;
+    border-radius: 33px;
+    border: 1px solid  #000000;
+    color: white;
+    
+
+}
+.banner-btn{
+    margin-top: 45px;
+    
+}
+.banner .banner-inner .banner-btn{
+
+}
+.banner .banner-inner .img-part{
+    flex-basis: 50%;
+
+}
+.banner .banner-inner .img-part img{
+    width: 554px;
+    height: 346px;
+
+
+}
+/*+++++++++++++++++++++++++++++++++++++
++++      banner section css code end ++
++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++
++++      Feture section css code start ++
++++++++++++++++++++++++++++++++++++++++*/
+.feture{
+    width: 100%;
+    padding: 50px 0px;
+}
+.feture .feture-inner{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.feture .feture-inner .f-box{
+    transition: 0.3s;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+.feture .feture-inner .f-box:hover{
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+}
+.feture .feture-inner .f-box img{
+    width: 66px;
+    height: 85px;
+
+}
+/*+++++++++++++++++++++++++++++++++++++
++++      Feture section code end ++
++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++
++++    online cources code start   ++
++++++++++++++++++++++++++++++++++++++++*/
+.cources{
+    width: 100%;
+    padding: 50px 0px;
+}
+.cources-inner{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.c-card{
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 18px;
+    padding: 25px;
+    margin: 0px 10px;
+
+}
+.c-card img{
+    width:331px ;
+    height:234px ;
+}
+.c-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.c-card .c-btn a{
+    background-color: #21B573;
+    padding:12px 28px 12px 28px;
+    border-radius: 33px;
+    border: 1px solid  #000000;
+    color: white;
+   
+}
+.c-footer{
+    display: flex;
+
+}
+.c-footer .left{
+
+}
+.c-footer .left img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+
+}
+
+.c-footer .left span{
+    
+        margin-right: 30px;
+
+}
+.c-footer .right{
+
+}
+.c-footer .right img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+
+
+}
+.c-footer .right span{
+
+}
+/*+++++++++++++++++++++++++++++++++++++
++++    online cources code end   ++
++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++
++++    elipas code start   ++
++++++++++++++++++++++++++++++++++++++++*/
+.container22{
+    width: 1000px;
+}
+.elippas{
+    width: 1000px;
+    margin: 0 auto;
+}
+.elippas .container22 h2{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.e1{
+    width: 30%;
+}
+.elippas .container22 img{
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding-left: 70px;
+   
+}
+.elippas .container22 .pp{
+    float: left;
+    width: 70%;
+   
+    
+}
+.pp p{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+div.clear{
+    clear: both;
+}
+
+/*+++++++++++++++++++++++++++++++++++++
++++    elipas code end  ++
++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++
++++    footer section code start   ++
++++++++++++++++++++++++++++++++++++++++*/
+.footer-section{
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+    
+}
+.footer-section .item1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    
+}
+.list-1 ul{
+    list-style-type: none;
+}
+.list-2 ul{
+    list-style-type: none;
+}
+.list-3 ul{
+    list-style-type: none;
+}
+.copy-right{
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+
+
